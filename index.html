@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Centro Tecnologico CIITI</title>
+	<link href='img/favicon.png' rel='shortcut icon' type='image/png'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+<script src="js/fb.js"></script>
+
+	<header>
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+				<!-- solo se muestra en dispositivos moviles y tablets-->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav">
+						<span class="sr-only">Desplegar / Ocultar Menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<!-- /solo se muestra en dispositivos moviles y tablets-->
+					<a  class="navbar-brand">CIITI</a>
+				</div>
+				<!-- Inicia Menu -->
+				<div class="collapse navbar-collapse" id="nav">
+					<ul class="nav navbar-nav">
+						<li class="active "><a href="#home" data-toggle="tab"><span class="glyphicon glyphicon-home"></span></a></li>
+						<li><a  href="#proyect"  data-toggle="tab">Mirar Proyectos</a></li>
+						<li><a  href="#lines-inv" data-toggle="tab">Lineas de investigación</a></li>
+						<li><a  href="#lines" data-toggle="tab">Lineamientos</a></li>
+						<li><a  href="#inf" data-toggle="tab">Información</a></li>
+						<li><a  href="#upload" data-toggle="tab">Subir propuestas</a></li>
+					</ul>
+     <!-- login -->
+<!--					<form  class="navbar-form navbar-right"  action="">
+                 <button class="btn btn-primary" onclick="ingresar();" id="login" >Inicia Secion con Facebook</button>
+
+					</form>
+			<!--/ login -->
+				</div>
+				<!--/ termina el menu -->
+			</div>
+		</nav>
+	</header>
+
+	<section class="jumbotron">
+		<div class="container">
+
+      <h1><img src="img/favicon.png" height="70px" width="70px">  Centro Tecnológico CIITI</h1>
+			<p>Centro de Investigación Informática, Tecnología e Innovación</p>
+
+		</div>
+	</section>
+
+	<section class="main container">
+
+	<div class="row">
+	<section class="posts col-md-9">
+
+<!-- contenido del selector de tabs -->
+		<div id="my-tab-content" class="tab-content">
+<!-- home tab -->
+		<div class="tab-pane active" id="home">
+	<!-- seccion de articulos -->
+				<article class="post clearfix">
+					<a  class="thumb pull-left">
+					<img class="img-thumbnail" src="img/pluto.jpg" alt="">
+					</a>
+					<h2 class="post-title">
+						<a href="#">Misión New Horizons: Plutón se muestra ahora a todo color</a>
+					</h2>
+					<p><span class="post-fecha">24 de julio de 2015</span> por <span class="post-autor"><a href="http://www.bbc.com/mundo/noticias/2015/07/150724_pluton_nuevas_imagenes_ao">BBC</a></span></p>
+					<p class="post-contenido text-justify">
+						Científicos de la Agencia Espacial de Estados Unidos (NASA) utilizaron una imagen mejorada a color para detectar las diferencias de
+						composición y textura en la superficie de Plutón, centro de millones de miradas en los últimos días tras el paso de la sonda espacial
+					  New Horizons. Cuando las fotografías de primeros planos son combinadas con datos a color provenientes del instrumento Ralph a bordo de la
+						 sonda...
+					</p>
+   				<!-- contenedor de los botos social (opcional) -->
+					<div class="contenedor-botones">
+						<a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span></a>
+						<a href="#" class="btn btn-success"><span class="glyphicon glyphicon-eye-open"></span></a>
+					</div>
+					<!--/ contenedor de los botos social -->
+				</article>
+		<!--/ seccion de articulos -->
+
+	</div>
+
+	<!-- proyect tab -->
+	<div class="tab-pane" id="proyect">
+		<article class="post clearfix">
+			 <a  class="thumb pull-left">
+			  <img class="img-thumbnail" src="img/bootstrap.jpg" alt="">
+			 </a>
+	  	<h2 class="post-title">Creacion sitio CIITI</h2>
+			<p><span class="post-fecha">28 de julio de 2015</span> por <span class="post-autor"><a href="#">Osmar Reyes, Gregory Mujuca, Marun Oldenburg</a></span></p>
+			<p class="post-contenido text-justify">
+				Desarrollado en el poderoso Framework <a href="http://getbootstrap.com/getting-started/">Bootstrap</a> y con la ayuda del muy
+				versátil editor de texto y de código abierto
+				<a href="https://atom.io/">Atom</a>, con la asesoria de los profesores José Ordaz e Yvon de la Rosa.
+			</p>
+			<!-- contenedor de boton download (opcional) -->
+			<div class="contenedor-botones">
+				<label for="down">Docuentacion del sitio (AGILEUSAB)</label>
+				<a href="doc/finalIHM.pdf" class="btn btn-primary" id="down" download="CIITI"><span class="glyphicon glyphicon-download-alt"></span></a>
+				<a href="doc/finalIHM.pdf" class="btn btn-success" target="_blank"><span class="glyphicon glyphicon-eye-open"></span></a>
+			</div>
+			<!--/ contenedor de boton download -->
+		</article>
+	</div>
+<!-- lineas de investigacion tab   -->
+	<div class="tab-pane" id="lines-inv">
+		 <article class="post clearfix">
+		 	<h2>lineas de investigacion</h2>
+			<ul>
+				<li>
+					<p>linea #1</p>
+				</li>
+				<li>
+					<p>linea #2</p>
+				</li>
+				<li>
+					<p>linea #3</p>
+				</li>
+				<li>
+					<p>linea #4</p>
+				</li>
+			</ul>
+		 </article>
+
+	</div>
+<!-- lineamientos tab   -->
+	<div class="tab-pane" id="lines">
+		<article class="post clearfix">
+			<h2 class="post-title">liniamientos del sitio CIITI</h2>
+			<ul>
+				<li>
+					<p>linieamiento #1</p>
+				</li>
+				<li>
+					<p>linieamiento #2</p>
+				</li>
+				<li>
+					<p>linieamiento #3</p>
+				</li>
+				<li>
+					<p>linieamiento #4</p>
+				</li>
+			</ul>
+		</article>
+	</div>
+	<!-- informacion tab   -->
+	<div class="tab-pane" id="inf">
+		<article class="post clearfix">
+			<h2 class="post-title">informacion de CiiTi</h2>
+		</article>
+	</div>
+	 <!-- subir propuesta tab   -->
+		<div class="tab-pane" id="upload">
+			<article class="post clearfix">
+				<h2 class="post-title">Subir propuesta</h2>
+				<div class="form-group">
+					<label for="mensaje">Descripcion:</label>
+					<input class="form-control" id="mensaje"/>
+					
+				</div>
+				<div class="form-group">
+				 <input type="file" id="archios">
+				 <button class="btn btn-primary"> subir </button>
+			</article>
+		</div>
+  <!--                                  -->
+
+</div>
+<!--/ contenido del selector de tabs -->
+
+</section>
+
+<!--              paginas de interes                                   -->
+			<aside class="col-md-3 hidden-xs hidden-sm">
+				<h4>paginas de interes</h4>
+				<div class="list-group">
+					<a href="http://www.ne.udo.edu.ve/" class="list-group-item">Portal UDONE</a>
+					<a href="http://udone.info/sael/login.php" class="list-group-item">SAEL</a>
+					<a href="#" class="list-group-item">Portal Lic. Informática</a>
+					<a href="#" class="list-group-item">Portal Revista Científica</a>
+
+				</div>
+
+				<h4>Articulos Recientes</h4>
+				<a href="#" class="list-group-item" id="recent">
+					<h4 class="list-group-item-heading">pluton a la vuelta de la esquina</h4>
+					<p class="list-group-item-text">nuevo horizonte viaja 9 a&ntilde;os.</p>
+				</a>
+
+
+			</aside>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container-fluid" id="footer">
+			<div class="row">
+				<div class="col-xs-3"></div>
+				<div class="col-xs-6">
+				<center>
+					<p>Universidad de Oriente-Nucleo Nueva Esparta</p>
+					<p>Escuela de Ingenieria-Departamento de Informática</p>
+					<p>Licenciatura Informatica</p>
+				</center>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
